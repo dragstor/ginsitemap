@@ -1,4 +1,4 @@
-package main
+package ginsitemap
 
 import (
 	"bytes"
