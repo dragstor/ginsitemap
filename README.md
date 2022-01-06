@@ -22,7 +22,7 @@ import "github.com/dragstor/ginsitemap"
 ## Step 3
 Add the middleware to your `router`:
 ```go
-r.Use(gorobots.New("./path/to/sitemap/sitemap.xml"))
+r.Use(ginsitemap.New("./path/to/sitemap/sitemap.xml"))
 ```
 
 # Example Code
@@ -36,11 +36,11 @@ import (
 
 func main() {
     r := gin.Default()
-    r.Use(gorobots.New("./sitemap.xml"))
+    r.Use(ginsitemap.New("./sitemap.xml"))
 
     r.Run(":8080")
 }
 ```
 
 # License
-mit
+MIT
