@@ -5,6 +5,8 @@ Shamelessly modified clone of [gorobots](https://github.com/vasiliyaltunin/gorob
 
 
 # Usage
+Assuming you've already prepared your `sitemap.xml` file, you can proceed with the steps below.
+
 ## Step 1
 Download and install the package
 
@@ -24,6 +26,8 @@ Add the middleware to your `router`:
 ```go
 r.Use(ginsitemap.New("./path/to/sitemap/sitemap.xml"))
 ```
+
+
 
 # Example Code
 ```go
